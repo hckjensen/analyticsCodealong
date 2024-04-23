@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hckjensen.github.io/",
+  "homepage": "https://hckjensen.github.io/analyticscodealong/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
