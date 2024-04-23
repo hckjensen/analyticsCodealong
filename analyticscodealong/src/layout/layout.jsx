@@ -18,6 +18,10 @@ export const Layout = () => {
             name: "Gallery",
             link: "gallery",
         },
+        {
+            name: "Gallery2",
+            link: "gallery2",
+        },
     ]
 
     return (
