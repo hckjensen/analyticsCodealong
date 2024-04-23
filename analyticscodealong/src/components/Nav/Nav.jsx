@@ -7,17 +7,14 @@ export const Navbar = ({ navItems }) => {
             <ul>
                 {navItems.map((item, index) => {
                     return (
-                        <>
-                            <li>
-                                <NavLink to={item.link} key={index}> {item.name} </NavLink>
-                            </li>
-                        </>
+                        <li key={index}>
+                            <NavLink to={item.link}> {item.name} </NavLink>
+                        </li>
                     )
                 })}
             </ul>
         </nav>
     )
-
 }
 
 

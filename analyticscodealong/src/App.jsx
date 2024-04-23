@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
 
-
+  ReactGA.initialize("G-C8DN6LV4LX")
   return <RouterProvider router={routes} />
 }
 
